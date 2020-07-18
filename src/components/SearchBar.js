@@ -7,10 +7,12 @@ class SearchBar extends React.Component {
     this.state = { term: "" };
   }
 
-  //
+  // what happens when you type into input element (controlled element)
   onInputChange = (event) => {
     this.setState({ term: event.target.value });
   };
+
+  // when form is submitted
 
   render() {
     // onChange() is a special property name that must be named this way to
