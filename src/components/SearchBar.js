@@ -4,15 +4,26 @@ import "./SearchBar.css";
 class SearchBar extends React.Component {
   constructor(props) {
     super(props);
+    this.state = { term: "" };
   }
 
+  onInputChange = (event) => {
+    this.setState({ term: event.target.value });
+  };
+
   render() {
+    // onChange() is a special property name that must be named this way to
+    // invoke it
     return (
       <div className="search-bar ui segment">
         <form className="ui form">
           <div className="field">
             <label>Video Search</label>
-            <input className="field" type="text" />
+            <input
+              type="text"
+              value={this.state.term}
+              onChange={this.onInputChange}
+            />
           </div>
         </form>
         <div role="listitem" className="item">
