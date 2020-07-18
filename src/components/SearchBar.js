@@ -10,10 +10,10 @@ class SearchBar extends React.Component {
       <div className="search-bar ui segment">
         <h1>Video Search</h1>
         <form className="ui form">
-          <div  className="field">
+          <div className="field">
             <input className="field" type="text" />
+            <label>Video Search</label>
           </div>
-          <label>Video Search</label>
         </form>
       </div>
     );
