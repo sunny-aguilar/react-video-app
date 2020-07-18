@@ -8,13 +8,17 @@ class SearchBar extends React.Component {
   render() {
     return (
       <div className="search-bar ui segment">
-        <h1>Video Search</h1>
         <form className="ui form">
           <div className="field">
             <label>Video Search</label>
             <input className="field" type="text" />
           </div>
         </form>
+        <div role="listitem" className="item">
+          <div className="ui violet horizontal label">
+            <i className="power cord icon"></i>API Powered by: Unsplash
+          </div>
+        </div>
       </div>
     );
   }
