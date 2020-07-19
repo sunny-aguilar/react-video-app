@@ -1,7 +1,7 @@
 import React from "react";
 import SearchBar from "./SearchBar";
 import youtube from "../apis/youtube";
-import VideoList from "./VideList";
+import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
 
 // YouTube API Key:
