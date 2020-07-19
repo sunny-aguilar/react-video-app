@@ -1,3 +1,10 @@
+## Youtube Clone
+This React app was created to mimic something similar to youtube. The<br />
+youtube API is used to get a list of videos and displays them as a list<br />
+including a main window showing the first video found. A user can click on<br />
+each video and it will update the main video section. This web app was<br />
+created using React.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
