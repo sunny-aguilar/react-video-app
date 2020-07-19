@@ -16,7 +16,7 @@ class App extends React.Component {
   // loads an initial video on app
   componentDidMount() {
     // initial video term can be changed to any search term
-    this.onTermSubmit('scooters');
+    this.onTermSubmit("scooters");
   }
 
   // callback for SearchBar
@@ -32,7 +32,10 @@ class App extends React.Component {
     });
 
     console.log(response);
-    this.setState({ videos: response.data.items, selectedVideo: response.data.items[0] });
+    this.setState({
+      videos: response.data.items,
+      selectedVideo: response.data.items[0],
+    });
   };
 
   onVideoSelect = (video) => {
