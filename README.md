@@ -1,5 +1,5 @@
 ## Youtube Clone
-[Check out app](https://sunny-aguilar.github.io/react-video-app/)
+[Check out app](https://sunny-aguilar.github.io/react-video-app/)<br />
 This React app was created to mimic something similar to youtube. The<br />
 youtube API is used to get a list of videos and displays them as a list<br />
 including a main window showing the first video found. A user can click on<br />
