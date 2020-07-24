@@ -1,4 +1,4 @@
-## Youtube Clone [See Here](https://sunny-aguilar.github.io/react-video-app/)
+## Youtube Clone [- See Live](https://sunny-aguilar.github.io/react-video-app/)
 
 This React app was created to mimic something similar to youtube. The<br />
 youtube API is used to get a list of videos and displays them as a list<br />
