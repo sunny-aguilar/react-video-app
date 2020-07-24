@@ -37,5 +37,6 @@
   },
   "devDependencies": {
     "prettier": "2.0.5"
-  }
+  },
+  "homepage": "https://sunny-aguilar.github.io/react-video-app/"
 }
